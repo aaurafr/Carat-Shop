@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <title>Checkout - Carat Shop SVT</title>
+    <style>
+        
+body {
+    font-family: 'Segoe UI', sans-serif;
+    margin: 0;
+    background: linear-gradient(to bottom, #e9d5ff, #f5d0fe, #ddd6fe);
+}
+
+.navbar {
+    background: linear-gradient(90deg, #a78bfa, #c4b5fd, #f0abfc);
+    padding: 15px;
+    color: white;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+.container {
+    max-width: 600px;
+    margin: 30px auto;
+    background: linear-gradient(135deg, #f5e9ff, #ede9fe, #fce7f3);
+    padding: 25px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(168,85,247,0.18);
+}
+
+h2 {
+    text-align: center;
+    color: #7c3aed;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border-radius: 10px;
+    border: 2px solid #ddd6fe;
+    background: #faf5ff;
+    outline: none;
+}
+
+input:focus, select:focus {
+    border-color: #c084fc;
+    box-shadow: 0 0 8px rgba(192,132,252,0.4);
+}
+
+.summary {
+    background: linear-gradient(135deg, #ede9fe, #fce7f3);
+    padding: 12px;
+    border-radius: 12px;
+    margin-top: 12px;
+    color: #5b4b8a;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 15px;
+    background: linear-gradient(90deg, #a78bfa, #f0abfc);
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: linear-gradient(90deg, #8b5cf6, #d946ef);
+}
+</style>
+    </style>
+</head>
+<body>
+
+<div class="navbar">
+    <h2>💎 Checkout Carat Shop</h2>
+    <div>
+        <a href="css produk 6.html">Back</a>
+</div>
+
+<div class="container">
+    <h2>Detail Pembelian</h2>
+
+    <form action="css verif.html">
+        <input type="text" placeholder="Nama Lengkap" required>
+        <input type="text" placeholder="Alamat Lengkap" required>
+        <input type="tel" placeholder="Nomor HP" required>
+
+        <select required>
+            <option value="">Pilih Metode Pembayaran</option>
+            <option>Transfer Bank</option>
+            <option>E-Wallet</option>
+            <option>COD</option>
+        </select>
+
+        <div class="summary">
+            <p><strong>Produk:</strong> Ganci Miniteen SVT</p>
+            <p><strong>Total:</strong> Rp 50.000</p>
+            
+        </div>
+        <form action="css verif.html"> 
+        <button type="submit">Bayar Sekarang</button>
+    </form>
+</div>
+
+</body>
+</html>
